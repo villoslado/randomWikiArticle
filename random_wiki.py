@@ -26,6 +26,6 @@ def get_random_article_in_category(category_name, language="en"):
         return None, "No articles found in this category"
 
 
-# Example usage for "Software development"
+# Setting topic: "Software development"
 title, summary = get_random_article_in_category("Software_development")
 print(f"Title: {title}\nSummary: {summary}")
